@@ -40,7 +40,7 @@ public class KafkaConf {
 
 	     config.put( 
 	         ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, 
-	         "54.149.221.152:9092"); //1
+	         "34.222.76.76:9092"); //1
 
 	     config.put( 
 	         ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, 

@@ -47,7 +47,7 @@ public class Controller {
 	
   
      
-    @PostMapping("/clouwatch")
+    @PostMapping("/cloudwatch")
     public String post(@RequestBody  String alert) 
     { 
     	System.out.println("\n Cloudwatch collected alert: " + alert);

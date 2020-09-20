@@ -11,18 +11,18 @@ public class AwsAlert {
 	
 	@Id
 	//private String id;
-	private Object alert;
+	private String alert;
 
-	public AwsAlert(Object alert) {
+	public AwsAlert(String alert) {
 		super();
 		this.alert = alert;
 	}
 
-	public Object getAlert() {
+	public String getAlert() {
 		return alert;
 	}
 
-	public void setAlert(Object alert) {
+	public void setAlert(String alert) {
 		this.alert = alert;
 	}
 	  
