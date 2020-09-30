@@ -52,8 +52,9 @@ public class Controller {
     { 
     	System.out.println("\n Cloudwatch collected alert: " + alert);
     	AwsAlert a=new AwsAlert(alert);
-        kafkaTemplate.send(TOPIC, alert);
+        
         repository.save(a);
+        kafkaTemplate.send(TOPIC, alert);
   
         return "Published successfully"; 
     } 
